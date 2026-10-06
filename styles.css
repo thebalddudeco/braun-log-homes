@@ -175,3 +175,4 @@ body.intro-active .hero-shade{opacity:1!important}
 .service-item{background:#10150C!important;border-color:#865B2A!important}
 .service-item:hover{background:#865B2A!important;border-color:#865B2A!important;color:#FFF4E4!important}
 .service-item:hover h3,.service-item:hover p,.service-item:hover .service-num,.service-item:hover .service-arrow{color:#FFF4E4!important}
+.hero-note,.scroll-cue{color:#FFF4E4!important}
