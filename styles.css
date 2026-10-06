@@ -186,7 +186,8 @@ body.intro-active main>section:not(.hero),body.intro-active .site-footer{visibil
 .craft-grid{align-items:start}
 .craft-grid{grid-template-columns:1.2fr 1fr}
 .craft-copy{padding-top:0}
-.craft-left h2{margin:0 0 75px}
+.craft-grid{align-items:center}
+.craft-left h2{margin:0 0 48px}
 .craft-left h2 .craft-headline-line{white-space:nowrap}
 @media(max-width:800px){.craft-copy{padding-top:0}}
 @media(max-width:800px){.craft-left h2{margin-bottom:40px}}
