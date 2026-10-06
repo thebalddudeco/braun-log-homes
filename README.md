@@ -7,12 +7,14 @@ Static website for Braun Log Homes, deployed to GitHub Pages with the custom dom
 - Website: [thebalddudeco/braun-log-homes](https://github.com/thebalddudeco/braun-log-homes)
 - Seasonal media: [TheBaldDudeCo/braun-log-homes-seasonal-gallery](https://huggingface.co/datasets/TheBaldDudeCo/braun-log-homes-seasonal-gallery)
 
-The Hugging Face repository is the source of truth for seasonal gallery images and hero videos. Each season folder contains its complete image set plus `hero.webm`:
+The Hugging Face repository is the source of truth for seasonal gallery images and hero videos. Each season folder contains its complete optimized WebP image set plus `hero.webm`:
 
 - `fall/` — 12 images + `hero.webm`
 - `winter/` — 11 images + `hero.webm`
 - `spring/` — 12 images + `hero.webm`
 - `summer/` — 12 images + `hero.webm`
+
+Seasonal photos are stored as WebP files with the longest edge limited to 2048 pixels.
 
 ## Seasonal behavior
 
