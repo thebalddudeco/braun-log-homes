@@ -132,8 +132,8 @@ function showWork(index) {
   const card = workCards[activeWork];
   featureImage.src = card.dataset.image;
   featureImage.alt = card.dataset.alt;
-  featureTitle.textContent = card.dataset.title;
-  featureType.textContent = card.dataset.type;
+  if (featureTitle) featureTitle.textContent = card.dataset.title;
+  if (featureType) featureType.textContent = card.dataset.type;
   workCards.forEach((item, i) => item.classList.toggle('is-active', i === activeWork));
   card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
 }
