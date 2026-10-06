@@ -101,18 +101,19 @@ const featureTitle = document.querySelector('#work-feature-title');
 const featureType = document.querySelector('#work-feature-type');
 let activeWork = 0;
 
+const seasonalGalleryBase = 'https://huggingface.co/datasets/TheBaldDudeCo/braun-log-homes-seasonal-gallery/resolve/main/';
 const seasonalGalleryImages = {
   feature: {
-    fall: 'assets/gallery/current/hf_20261006_175632_86a84c46-a1e2-4344-b928-683b36c987bd.jpg',
-    winter: 'assets/gallery/current/contemporary-country-house-standing-snow-forest-front-camera-background-other-residence-among-pines-birches.jpg',
-    spring: 'assets/gallery/current/hf_20261006_175644_de6683a8-3e0a-490f-a474-4f12552c1a80.jpg',
-    summer: 'assets/gallery/current/hf_20261006_175650_96fc437a-1e13-4294-bfa4-e94d75cde62f.jpg'
+    fall: `${seasonalGalleryBase}fall/feature.jpg`,
+    winter: `${seasonalGalleryBase}winter/feature.jpg`,
+    spring: `${seasonalGalleryBase}spring/feature.jpg`,
+    summer: `${seasonalGalleryBase}summer/feature.jpg`
   },
   selectedWork: {
-    fall: 'assets/gallery/current/hf_20261006_175657_462db8ff-0b27-413d-9793-27b5cfdcb2d9.jpg',
-    winter: 'assets/gallery/current/new-wooden-russian-bath-sunny-winter-day-view-from-outside-against-backdrop-snow-covered-forest.jpg',
-    spring: 'assets/gallery/current/hf_20261006_175702_8c724fb0-b66b-4b76-8f70-358dc9cd07e8.jpg',
-    summer: 'assets/gallery/current/hf_20261006_175718_82758a76-2b21-4f99-8666-bbe0a5a85427.jpg'
+    fall: `${seasonalGalleryBase}fall/selected-work.jpg`,
+    winter: `${seasonalGalleryBase}winter/selected-work.jpg`,
+    spring: `${seasonalGalleryBase}spring/selected-work.jpg`,
+    summer: `${seasonalGalleryBase}summer/selected-work.jpg`
   }
 };
 
