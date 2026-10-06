@@ -101,6 +101,31 @@ const featureTitle = document.querySelector('#work-feature-title');
 const featureType = document.querySelector('#work-feature-type');
 let activeWork = 0;
 
+const seasonalGalleryImages = {
+  feature: {
+    fall: 'assets/gallery/seasonal/hf_20261006_162439_8acc0043-cb29-4526-96a3-e28d83b1e4f3.jpg',
+    winter: 'assets/gallery/seasonal/hf_20261006_161638_f46c9a03-ccc2-4178-b88f-a33a142054d7.jpg',
+    spring: 'assets/gallery/seasonal/hf_20261006_162740_cf9b4550-5d51-403b-8f6c-a05b6bb1d039.jpg',
+    summer: 'assets/gallery/seasonal/hf_20261006_163143_dff03c6c-71ae-46b5-a851-fd7f71c01eae.jpg'
+  },
+  selectedWork: {
+    fall: 'assets/gallery/seasonal/hf_20261006_162441_65773248-62ce-4eab-beb3-660dc4f08f08.jpg',
+    winter: 'assets/gallery/seasonal/hf_20261006_164348_84c8cbb3-d265-4248-8c8b-e85100204247.jpg',
+    spring: 'assets/gallery/seasonal/hf_20261006_162746_41823f9e-0104-4dbf-b27b-d22a756cc883.jpg',
+    summer: 'assets/gallery/seasonal/hf_20261006_163148_22fb6247-51f3-462c-a6b7-5485a9b03738.jpg'
+  }
+};
+
+function applySeasonalGalleryImages() {
+  const featureSectionImage = document.querySelector('.feature-image img');
+  const selectedFeature = seasonalGalleryImages.feature[currentSeason];
+  const selectedWork = seasonalGalleryImages.selectedWork[currentSeason];
+  if (featureSectionImage && selectedFeature) featureSectionImage.src = selectedFeature;
+  if (featureImage && selectedWork) featureImage.src = selectedWork;
+}
+
+applySeasonalGalleryImages();
+
 function showWork(index) {
   if (!workCards.length) return;
   activeWork = (index + workCards.length) % workCards.length;
