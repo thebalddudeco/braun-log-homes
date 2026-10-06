@@ -183,3 +183,6 @@ body.intro-active{height:100svh;overflow:hidden}
 body.intro-active main>section:not(.hero),body.intro-active .site-footer{visibility:hidden;pointer-events:none}
 .intro-text{max-width:650px}
 .intro-text p:not(.lead){max-width:650px}
+.craft-grid{align-items:start}
+.craft-copy{padding-top:0}
+@media(max-width:800px){.craft-copy{padding-top:0}}
