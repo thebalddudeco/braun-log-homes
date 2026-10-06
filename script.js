@@ -79,9 +79,20 @@ menu?.addEventListener('click', () => {
 document.querySelectorAll('.main-nav a').forEach((link) => link.addEventListener('click', () => nav.classList.remove('open')));
 document.querySelector('#contact-form')?.addEventListener('submit', (event) => {
   event.preventDefault();
+  const form = event.currentTarget;
+  const values = new FormData(form);
+  const name = values.get('name') || 'Website visitor';
+  const subject = encodeURIComponent(`Website inquiry from ${name}`);
+  const body = encodeURIComponent([
+    `Name: ${name}`,
+    `Email: ${values.get('email') || ''}`,
+    `Phone: ${values.get('phone') || ''}`,
+    '',
+    `${values.get('message') || ''}`
+  ].join('\n'));
   const note = event.currentTarget.querySelector('.form-note');
-  note.textContent = 'Thanks — your note is ready for the Braun Log Homes team.';
-  event.currentTarget.reset();
+  note.textContent = 'Opening your email app…';
+  window.location.href = `mailto:braunloghomesllc@yahoo.com?subject=${subject}&body=${body}`;
 });
 
 const workCards = [...document.querySelectorAll('.work-card')];
