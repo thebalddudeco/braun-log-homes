@@ -154,7 +154,8 @@ body{background:#10150C!important;color:#10150C}
 .intro h2 em{color:#865B2A!important}
 :root{--warm:#865B2A;--muted:#865B2A}
 .nav-cta{border-color:#865B2A!important;color:#865B2A!important}
-.intro-loader-content span,.contact-meta,.site-footer>a:last-child{color:#865B2A!important}
+.intro-loader-content span,.site-footer>a:last-child{color:#865B2A!important}
+.contact-meta,.contact-meta a{color:#FFF4E4!important}
 .feature-image{filter:none!important}
 .feature-image:before,.feature-image:after,.work-feature:after,.gallery-grid figure:after{display:none!important;background:none!important;filter:none!important}
 .work-feature img,.work-card img,.story-image{filter:none!important}
