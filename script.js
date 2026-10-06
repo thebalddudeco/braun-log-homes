@@ -103,16 +103,16 @@ let activeWork = 0;
 
 const seasonalGalleryImages = {
   feature: {
-    fall: 'assets/gallery/seasonal/hf_20261006_162439_8acc0043-cb29-4526-96a3-e28d83b1e4f3.jpg',
-    winter: 'assets/gallery/seasonal/hf_20261006_161638_f46c9a03-ccc2-4178-b88f-a33a142054d7.jpg',
-    spring: 'assets/gallery/seasonal/hf_20261006_162740_cf9b4550-5d51-403b-8f6c-a05b6bb1d039.jpg',
-    summer: 'assets/gallery/seasonal/hf_20261006_163143_dff03c6c-71ae-46b5-a851-fd7f71c01eae.jpg'
+    fall: 'assets/gallery/current/hf_20261006_175632_86a84c46-a1e2-4344-b928-683b36c987bd.jpg',
+    winter: 'assets/gallery/current/contemporary-country-house-standing-snow-forest-front-camera-background-other-residence-among-pines-birches.jpg',
+    spring: 'assets/gallery/current/hf_20261006_175644_de6683a8-3e0a-490f-a474-4f12552c1a80.jpg',
+    summer: 'assets/gallery/current/hf_20261006_175650_96fc437a-1e13-4294-bfa4-e94d75cde62f.jpg'
   },
   selectedWork: {
-    fall: 'assets/gallery/seasonal/hf_20261006_162441_65773248-62ce-4eab-beb3-660dc4f08f08.jpg',
-    winter: 'assets/gallery/seasonal/hf_20261006_164348_84c8cbb3-d265-4248-8c8b-e85100204247.jpg',
-    spring: 'assets/gallery/seasonal/hf_20261006_162746_41823f9e-0104-4dbf-b27b-d22a756cc883.jpg',
-    summer: 'assets/gallery/seasonal/hf_20261006_163148_22fb6247-51f3-462c-a6b7-5485a9b03738.jpg'
+    fall: 'assets/gallery/current/hf_20261006_175657_462db8ff-0b27-413d-9793-27b5cfdcb2d9.jpg',
+    winter: 'assets/gallery/current/new-wooden-russian-bath-sunny-winter-day-view-from-outside-against-backdrop-snow-covered-forest.jpg',
+    spring: 'assets/gallery/current/hf_20261006_175702_8c724fb0-b66b-4b76-8f70-358dc9cd07e8.jpg',
+    summer: 'assets/gallery/current/hf_20261006_175718_82758a76-2b21-4f99-8666-bbe0a5a85427.jpg'
   }
 };
 
