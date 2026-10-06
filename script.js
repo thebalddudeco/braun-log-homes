@@ -1,3 +1,10 @@
+const navigationEntry = performance.getEntriesByType('navigation')[0];
+if (navigationEntry?.type === 'reload') {
+  history.replaceState(null, document.title, `${window.location.pathname}${window.location.search}`);
+  window.scrollTo(0, 0);
+}
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
 const menu = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.main-nav');
 const introLoader = document.querySelector('#intro-loader');
