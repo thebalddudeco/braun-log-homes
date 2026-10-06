@@ -1,0 +1,4 @@
+# Source material and alternate encodes are kept locally, not deployed.
+source/
+assets/video/*.mp4
+desktop.ini
