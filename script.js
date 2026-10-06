@@ -28,7 +28,8 @@ function getCurrentSeason(month) {
   return 'fall';
 }
 
-const currentSeason = getCurrentSeason(new Date().getMonth());
+const seasonOverride = new URLSearchParams(window.location.search).get('season');
+const currentSeason = seasonalHeroVideos[seasonOverride] ? seasonOverride : getCurrentSeason(new Date().getMonth());
 const currentSeasonVideo = seasonalHeroVideos[currentSeason];
 if (currentSeasonVideo) {
   if (heroVideoSource) {
