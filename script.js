@@ -101,6 +101,36 @@ const featureTitle = document.querySelector('#work-feature-title');
 const featureType = document.querySelector('#work-feature-type');
 let activeWork = 0;
 
+const seasonalGalleryImages = {
+  feature: {
+    fall: 'assets/gallery/sunrise-wooden-hut-autumn-forest-assiniboine-provincial-park-canada.jpg',
+    winter: 'assets/gallery/modern-log-cabin-wooden-vacation-home-winter-timber-house-with-large-windows-balcony-porch.jpg',
+    spring: 'assets/gallery/wooden-lodge-with-rocky-mountains-reflection-emerald-lake-yoho-national-park.jpg',
+    summer: 'assets/gallery/EmbeddedImage (14).jpg'
+  },
+  selectedWork: {
+    fall: 'assets/gallery/EmbeddedImage (14).jpg',
+    winter: 'assets/gallery/EmbeddedImage (6).jpg',
+    spring: 'assets/gallery/EmbeddedImage (11).jpg',
+    summer: 'assets/gallery/EmbeddedImage (15).jpg'
+  }
+};
+
+function applySeasonalGalleryImages() {
+  const featureSectionImage = document.querySelector('.feature-image img');
+  const selectedFeature = seasonalGalleryImages.feature[currentSeason];
+  const selectedWork = seasonalGalleryImages.selectedWork[currentSeason];
+  if (featureSectionImage && selectedFeature) featureSectionImage.src = selectedFeature;
+  if (workCards[0] && selectedWork) {
+    workCards[0].dataset.image = selectedWork;
+    const thumbnail = workCards[0].querySelector('img');
+    if (thumbnail) thumbnail.src = selectedWork;
+    if (activeWork === 0 && featureImage) featureImage.src = selectedWork;
+  }
+}
+
+applySeasonalGalleryImages();
+
 function showWork(index) {
   if (!workCards.length) return;
   activeWork = (index + workCards.length) % workCards.length;
