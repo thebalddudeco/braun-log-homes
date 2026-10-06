@@ -177,3 +177,7 @@ body.intro-active .hero-shade{opacity:1!important}
 .service-item:hover{background:#865B2A!important;border-color:#865B2A!important;color:#FFF4E4!important}
 .service-item:hover h3,.service-item:hover p,.service-item:hover .service-num,.service-item:hover .service-arrow{color:#FFF4E4!important}
 .hero-note,.scroll-cue{color:#FFF4E4!important}
+.hero{height:100svh!important;min-height:100svh!important}
+body.intro-active{height:100svh;overflow:hidden}
+@media(min-width:801px){.hero{height:100vh!important;min-height:100vh!important}body.intro-active{height:100vh}}
+body.intro-active main>section:not(.hero),body.intro-active .site-footer{visibility:hidden;pointer-events:none}
