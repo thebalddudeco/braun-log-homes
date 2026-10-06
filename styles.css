@@ -181,3 +181,5 @@ body.intro-active .hero-shade{opacity:1!important}
 body.intro-active{height:100svh;overflow:hidden}
 @media(min-width:801px){.hero{height:100vh!important;min-height:100vh!important}body.intro-active{height:100vh}}
 body.intro-active main>section:not(.hero),body.intro-active .site-footer{visibility:hidden;pointer-events:none}
+.intro-text{max-width:650px}
+.intro-text p:not(.lead){max-width:650px}
