@@ -14,11 +14,12 @@ const forceIntroPreview = new URLSearchParams(window.location.search).has('intro
 const introMinimum = 1400;
 const introMaximum = 12000;
 
+const seasonalHeroVideoBase = 'https://huggingface.co/datasets/TheBaldDudeCo/braun-log-homes-seasonal-gallery/resolve/main/';
 const seasonalHeroVideos = {
-  fall: 'assets/video/Fall.webm',
-  winter: 'assets/video/Winter.webm',
-  spring: 'assets/video/Spring.webm',
-  summer: 'assets/video/Summer.webm'
+  fall: `${seasonalHeroVideoBase}fall/hero.webm`,
+  winter: `${seasonalHeroVideoBase}winter/hero.webm`,
+  spring: `${seasonalHeroVideoBase}spring/hero.webm`,
+  summer: `${seasonalHeroVideoBase}summer/hero.webm`
 };
 
 function getCurrentSeason(month) {
