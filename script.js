@@ -114,7 +114,9 @@ const seasonalGalleryFiles = {
     'hf_20261006_194151_eed51fcc-4bd1-45da-b43c-40720eb843fb.png',
     'hf_20261006_194153_3867b43f-894b-4ab7-b652-f68982c1a9e0.png',
     'hf_20261006_194153_695da8c1-ee92-4ef4-bd4c-0358ac7a3427.png',
-    'hf_20261006_194153_d03960e9-ad63-490d-b3d6-524cabb3d392.png'
+    'hf_20261006_194153_d03960e9-ad63-490d-b3d6-524cabb3d392.png',
+    'hf_20261006_194153_2e8feb22-9bff-46a8-957d-e19aeacb4d56.png',
+    'hf_20261006_194151_1cde3141-c339-49ef-af2d-c5be17ea3fc8.png'
   ],
   winter: [
     'hf_20261006_193237_0e8ed1ec-f88d-4662-8659-8cb906ef32b3.png',
@@ -153,7 +155,9 @@ const seasonalGalleryFiles = {
     'hf_20261006_194130_64d223a5-35a3-4c1b-aa9d-85da14f4b176.png',
     'hf_20261006_194130_b7b7a32e-3bd4-4a80-bfc9-13e847767d73.png',
     'hf_20261006_194130_eab45074-7e77-4844-b52f-2820e30f0b21.png',
-    'hf_20261006_194133_227ee355-8610-49f5-86b5-2f9cb5948ae7.png'
+    'hf_20261006_194133_227ee355-8610-49f5-86b5-2f9cb5948ae7.png',
+    'hf_20261006_194133_11fc000a-c172-43ef-975b-68c7ebf4c8fb.png',
+    'hf_20261006_194133_76fc1ab5-77f3-4dce-87fb-b27e833f253f.png'
   ]
 };
 const seasonalGalleryImages = {
