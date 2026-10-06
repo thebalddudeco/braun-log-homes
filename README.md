@@ -14,7 +14,7 @@ The Hugging Face repository is the source of truth for seasonal gallery images a
 - `spring/` — 12 images + `hero.webm`
 - `summer/` — 12 images + `hero.webm`
 
-Seasonal photos are stored as WebP files with the longest edge limited to 2048 pixels.
+Seasonal photos are stored as WebP files with the longest edge limited to 2048 pixels. Seasonal hero videos are WebM files with the longest edge limited to 2048 pixels.
 
 ## Seasonal behavior
 

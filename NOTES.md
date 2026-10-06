@@ -19,7 +19,7 @@ spring/
 summer/
 ```
 
-Each folder contains the optimized WebP image set for that season and a `hero.webm` file. Photos are capped at a 2048-pixel longest edge. The website maps the current season to the matching folder and uses the complete image list for the carousel.
+Each folder contains the optimized WebP image set for that season and a `hero.webm` file. Photos and hero videos are capped at a 2048-pixel longest edge. The website maps the current season to the matching folder and uses the complete image list for the carousel.
 
 ## Preview override
 
