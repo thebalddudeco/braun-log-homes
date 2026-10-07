@@ -21,6 +21,8 @@ summer/
 
 Each folder contains the optimized WebP image set for that season and a `hero.webm` file. Photos and hero videos are capped at a 2048-pixel longest edge. The website maps the current season to the matching folder and uses the complete image list for the carousel.
 
+Brand assets are stored in `assets/brand/`. Use the cream logo on dark surfaces, the amber logo in the footer, and the black logo for favicon and social metadata contexts.
+
 ## Preview override
 
 Use `?season=winter`, `?season=spring`, `?season=summer`, or `?season=fall` to simulate a season locally. This override is for testing only; normal visitors use the calendar automatically.

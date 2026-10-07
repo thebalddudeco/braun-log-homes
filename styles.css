@@ -171,8 +171,10 @@ body{background:#10150C!important;color:#10150C}
 .intro-loader{background:transparent!important}
 body.intro-active .hero-shade{opacity:1!important}
 .intro-wordmark{font-family:'DM Sans',Arial,sans-serif!important;font-size:clamp(28px,4vw,54px)!important;font-weight:600!important;letter-spacing:-.06em!important;line-height:1!important;color:#FFF4E4!important}
-.site-wordmark{font-family:'DM Sans',Arial,sans-serif!important;font-size:20px!important;font-weight:600!important;letter-spacing:-.055em!important;line-height:1!important;color:#FFF4E4!important;white-space:nowrap}
-.site-footer .site-wordmark{font-size:16px!important}
+.brand-logo{width:auto!important;height:52px!important;object-fit:contain!important}
+.site-header .brand-logo{height:58px!important}
+.site-footer .brand-logo{height:52px!important}
+.intro-logo{display:block;width:min(420px,70vw);height:auto;object-fit:contain;margin:0 auto 10px}
 .service-item{background:#10150C!important;border-color:#865B2A!important}
 .service-item:hover{background:#865B2A!important;border-color:#865B2A!important;color:#FFF4E4!important}
 .service-item:hover h3,.service-item:hover p,.service-item:hover .service-num,.service-item:hover .service-arrow{color:#FFF4E4!important}

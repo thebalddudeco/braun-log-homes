@@ -16,6 +16,8 @@ The Hugging Face repository is the source of truth for seasonal gallery images a
 
 Seasonal photos are stored as WebP files with the longest edge limited to 2048 pixels. Seasonal hero videos are WebM files with the longest edge limited to 2048 pixels.
 
+Brand assets live in `assets/brand/`: the cream logo is used on the dark navigation and intro, the amber logo is used in the footer, and the black logo is used for favicon and social metadata contexts.
+
 ## Seasonal behavior
 
 The site selects the season from the calendar when it loads:
